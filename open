@@ -1,0 +1,5 @@
+//open and openat functions
+
+#include<fcntl.h>
+int open(const char *path, int oflag, .../* mode_t mode */);
+int openat(int fd, const char *path, int oflag, .../*mode_t mode */);
